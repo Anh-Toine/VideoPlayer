@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+    x:Class="VideoPlayer.Views.VideoPage">
+    <ContentPage.Content>
+        <xct:MediaElement x:Name="player"
+                          Source="https://www.youtube.com/watch?v=yJAKkz17WDo"
+                          AutoPlay="False"
+                          ShowsPlaybackControls="True"
+                          VerticalOptions="Center"
+                          HorizontalOptions="Center"
+                          WidthRequest="300"
+                          HeightRequest="200"/>
+    </ContentPage.Content>
+</ContentPage>
